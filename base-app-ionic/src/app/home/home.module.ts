@@ -7,13 +7,19 @@ import { IonicModule } from '@ionic/angular';
 import { HomePageRoutingModule } from './home-routing.module';
 
 import { HomePage } from './home.page';
+import { SearchComponent } from './components/search/search.component';
+import { LibraryComponent } from './components/library/library.component';
+import { RadioComponent } from './components/radio/radio.component';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    HomePageRoutingModule
+    HomePageRoutingModule,
+    SearchComponent,
+    LibraryComponent,
+    RadioComponent
   ],
   declarations: [HomePage]
 })
